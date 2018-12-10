@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>270</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Company
+--
+-name
+-emil
+-website
+-contactNo.
+--
+search()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>0</y>
+      <w>170</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+-name
+-backlog
+-cpi
+-branch
+-dob
+-emailId
+-address
+-status
+--
+updateProfile()
+search()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>500</y>
+      <w>170</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Schedule
+--
+-package
+-visitData
+-hrName
+-deadLine
+minCpi
+vacancy
+--
+updateSchedule()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>280</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Notice
+--
+-date
+-description
+-expieryDate
+-title
+--
+generateNotice()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>110</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Admin
+--
+-name
+-email
+-contactNo.
+--
+modifyStudentData()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>40</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>manages &gt;
+lt=-
+m1=1
+m2=1..n
+
+</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>100</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+registres &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0;190.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>290</y>
+      <w>320</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+
+
+
+&lt; generates </panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>200</y>
+      <w>110</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1..n
+
+
+
+generates v</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>40</x>
+      <y>200</y>
+      <w>530</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1..n
+
+
+
+checks &gt;</panel_attributes>
+    <additional_attributes>510.0;320.0;10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>30</y>
+      <w>530</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+
+
+
+checks v</panel_attributes>
+    <additional_attributes>270.0;490.0;450.0;490.0;450.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>390</y>
+      <w>100</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1..n
+m2=1..n
+provides v</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+</diagram>
