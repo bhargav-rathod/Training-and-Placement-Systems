@@ -1,7 +1,13 @@
 # Training and Placement Systems
 
-Required Software
-  Microsoft Visual Studio
+Language : .Net,c#
+
+Software : Microsoft Visual Studio 2017
+                     (Cummynity Version)
+
+Additional Technology : Entity Framework 6.0, Materialized css
+                  
+Additional Sources : AJAX Control Toolkit, Excel File Reader
   
 Created by:
   Bhargav Rathod
